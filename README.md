@@ -4,7 +4,7 @@ A responsive web application that allows you to search for beers and save the on
 # Usage
 * First, create the database and tables necessary for user accounts. Run the provided bash script "configure.sh" to do this. 
 * Open a terminal window and go to the "backend" directory.
-  * Set environment variables with the relevant information about the database being connected to
+  * Set environment variables with the relevant database information
     * eg. $ PGUSER=dbuser \
           PGHOST=database.server.com \
           PGPASSWORD=secretpassword \
