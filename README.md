@@ -16,18 +16,18 @@ A responsive web application that allows you to search for beers and save the on
 # Screenshots
 ![Sign up](./screenshots/Signup.png)
 ----
-
-
-
+&nbsp;
+&nbsp;
+&nbsp;
 ![Sign in](./screenshots/Signin.png)
 ----
-
-
-
+&nbsp;
+&nbsp;
+&nbsp;
 ![Home](./screenshots/Home.png)
 ----
-
-
-
+&nbsp;
+&nbsp;
+&nbsp;
 ![Favorites](./screenshots/Favorites.png)
 
