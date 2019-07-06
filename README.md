@@ -12,3 +12,5 @@ A responsive web application that allows you to search for beers and save the on
           PGPORT=3211
   * Now, run "npm index.js".
 * Finally, open another terminal window, navigate to the "frontend" directory and run "npm start".
+
+![alt text]("./screenshots/home" "Homepage")
