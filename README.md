@@ -30,4 +30,5 @@ A responsive web application that allows you to search for beers and save the on
 &nbsp;
 &nbsp;
 ![Favorites](./screenshots/Favorites.png)
+----
 
