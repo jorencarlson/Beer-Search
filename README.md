@@ -14,8 +14,8 @@ A responsive web application that allows you to search for beers and save the on
 * Finally, open another terminal window, navigate to the "frontend" directory and run "npm start".
 
 # Screenshots
-![Home](./screenshots/Home.png)
-![Sign in](./screenshots/Login.png)
 ![Sign up](./screenshots/Signup.png)
+![Sign in](./screenshots/Signin.png)
+![Home](./screenshots/Home.png)
 ![Favorites](./screenshots/Favorites.png)
 
