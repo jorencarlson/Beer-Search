@@ -1,0 +1,8 @@
+#beers {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100% !important;
+  height: 100% !important;
+  justify-content: center;
+  align-items: center;
+}

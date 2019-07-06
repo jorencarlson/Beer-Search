@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9dcb497a.chunk.css",
+    "main.js": "/static/js/main.b684db72.chunk.js",
+    "main.js.map": "/static/js/main.b684db72.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.89b31d70.chunk.js": "/static/js/2.89b31d70.chunk.js",
+    "static/js/2.89b31d70.chunk.js.map": "/static/js/2.89b31d70.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.adc5d0a97d85ddc252bd93a7e12a8c12.js": "/precache-manifest.adc5d0a97d85ddc252bd93a7e12a8c12.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.9dcb497a.chunk.css.map": "/static/css/main.9dcb497a.chunk.css.map",
+    "static/media/Brewdog-logo.png": "/static/media/Brewdog-logo.fb243bee.png"
+  }
+}

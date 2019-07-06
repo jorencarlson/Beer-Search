@@ -1,0 +1,26 @@
+#login-container {
+    min-height: 100%;
+}
+
+#login-form {
+    position: relative;
+    top: 120px;
+    height: 275px;
+    width: 275px;
+}
+
+.login {
+    width: 85%;
+}
+
+#login-warning {
+    position: absolute;
+    top: 140px;
+    height: 45px;
+    width: 40%;
+}
+
+#sign-up-alert {
+    height: 45px;
+    margin-bottom: 0;
+}

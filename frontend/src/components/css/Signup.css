@@ -1,0 +1,25 @@
+#sign-up-container {
+    min-height: 100%;
+}
+
+#sign-up-form {
+    position: relative;
+    top: 120px;
+    height: 300px;
+    width: 460px;
+}
+
+#sign-up-warning {
+    position: absolute;
+    top: 140px;
+    height: 45px;
+    width: 40%;
+}
+
+.sign-up {
+    width: 80%;
+}
+
+#sign-up-btn {
+    width: 50%;
+}

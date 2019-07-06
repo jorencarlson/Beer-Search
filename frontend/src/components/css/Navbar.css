@@ -1,0 +1,36 @@
+#search-btn {
+    border-radius: 0;
+}
+
+#search {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+#navbar {
+    flex-wrap: nowrap;
+}
+
+#logo-container {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+#logo {
+    min-width: 100%;
+}
+
+#favorites-btn > * {
+    pointer-events: none;
+}
+
+/*#badge {
+    position: static;
+}*/
+
+/*#logo-and-search-container {
+    display: flex;
+    width: 80%;
+    border: 2px solid orange;
+}*/
