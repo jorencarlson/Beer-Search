@@ -39,11 +39,11 @@ class App extends React.Component {
         if (searchTerm === '') {
             return;
         }
-        if (searchTerm === this.state.searchTerm) {
+        /*if (searchTerm === this.state.searchTerm) {
             if (this.state.jsonIndex < this.state.json.length || this.state.json.length < 80) {
                 return;
             }
-        }
+        }*/
         fetch(`https://api.punkapi.com/v2/beers?page=${this.state.page}&per_page=80&beer_name=${searchTerm}`)
         .then((response) => {
           return response.json();
@@ -53,10 +53,19 @@ class App extends React.Component {
              return;
           }
           else if (searchTerm === this.state.searchTerm) {
-            this.setState({json: json,
+            if (this.state.beerList !== null) {
+                this.setState({json: json,
+                               jsonIndex: 0,
+                               beerList: []}, () => {
+                       this.displayBeers();
+                     });
+            }
+            else {
+                this.setState({json: json,
                            jsonIndex: 0}, () => {
                               this.displayBeers();
                             });
+            }
           }
           else {
             this.setState({json: json,

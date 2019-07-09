@@ -1,8 +1,11 @@
-#beers {
+.beer-column {
   display: flex;
-  flex-wrap: wrap;
-  width: 100% !important;
-  height: 100% !important;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 375px;
+  min-height: 100%;
+}
+
+.column-container {
+  min-height: 100%;
 }

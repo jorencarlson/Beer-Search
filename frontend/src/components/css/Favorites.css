@@ -1,0 +1,12 @@
+.beer-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 375px;
+    min-height: 100%;
+}
+
+.column-container {
+    min-height: 100%;
+}
+  

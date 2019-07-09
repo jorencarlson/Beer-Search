@@ -1,19 +1,19 @@
 .beer-card {
     font-size: 13.5px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 315px;
     width: 375px;
-    flex-wrap: wrap;
     padding: 20px;
 }
 
 .beer-img-container {
     display: flex;
+    justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 18%;
+    height: 150px;
+    flex: 0 0 45px;
 }
 
 .beer-img {
@@ -21,26 +21,21 @@
     max-width: 100%;
 }
 
-.favorite-container {
+.description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.beer-name {
     display: flex;
     justify-content: center;
     align-items: center;
-	width: 100%;
-}
-
-.description-container {
-	display: flex;
-	align-items: flex-start;
-	justify-content: center;
-	flex-direction: column;
-    width: 72%;
-	height: 100%;
 }
 
 .img-and-description-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    height: 80%;
-    width: 100%;
 }

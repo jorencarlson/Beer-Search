@@ -34,29 +34,26 @@ class Beer extends React.Component {
 
   addButton = () => {
     if (this.props.addToFavorites) {
-      return (<div className="favorite-container">
-      <button className="btn btn-outline-primary" onClick={this.addToFavorites}>Add to Favorites</button>
-      </div>);
+      return (<button className="btn btn-outline-primary beer-card-btn" onClick={this.addToFavorites}>Add to Favorites</button>);
     }
     else if (this.props.removeFromFavorites) {
-      return (<div className="favorite-container">
-      <button className="btn btn-outline-primary" onClick={this.removeFromFavorites}>Remove from Favorites</button>
-      </div>);
+      return (
+      <button className="btn btn-outline-primary beer-card-btn" onClick={this.removeFromFavorites}>Remove from Favorites</button>);
     }
   }
 
   render() {
-    return (<div className="beer-card border border-light rounded shadow m-2">
-              <div className="img-and-description-container">
-                <div className="beer-img-container">
+    return (<div className="beer-card border border-light rounded shadow mb-2">
+              <h5 className="beer-name w-100 border-bottom border-secondary mb-2">{this.props.attributes.name}</h5>
+              <div className="img-and-description-container mb-3">
+                <div className="beer-img-container mr-4">
                     <img className="beer-img" src={this.props.attributes.img} alt="Beer"></img>
                 </div>
                 <div className="description-container">
-                  <h5 className="beer-name">{this.props.attributes.name}</h5>
-                  <div className="beer-description">{this.trimDescription()}</div>
+                  <div className="beer-description mb-3">{this.props.attributes.description}</div>
+                  {this.addButton()}
                 </div>
               </div>
-              {this.addButton()}
             </div>);
   }
 }
