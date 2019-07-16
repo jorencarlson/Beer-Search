@@ -6,6 +6,8 @@ const session = require('express-session');
 const passport = require('passport');
 const passportConfig = require('./config/passport');
 const pgHelpers = require('./pgHelpers');
+const bcrypt = require('bcrypt');
+const saltRounds = 10;
 
 // Passport configuration
 passportConfig.configurePassport(passport);

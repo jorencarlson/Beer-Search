@@ -1,5 +1,5 @@
 const helpers = require('./helpers');
-const { Pool } = require('pg')
+const { Pool } = require('pg');
 
 const pool = new Pool()
 
