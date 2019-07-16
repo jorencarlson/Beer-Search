@@ -1,5 +1,5 @@
 # Beer-Search
-# Usage
+
 * Using Postgres, run the command "psql -U postgres -d mydb -f configure.sql", but with your username and desired database to create the tables. 
 * Then, go to the "backend" directory.
   * Set environment variables with the relevant database information.
@@ -11,7 +11,6 @@
   * Now, run "npm index.js".
 * Finally, open another terminal window, navigate to the "frontend" directory and run "npm start".
 
-# Screenshots
 ![Sign up](./screenshots/Signup.png)
 ----
 &nbsp;
