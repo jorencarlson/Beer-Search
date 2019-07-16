@@ -1,7 +1,5 @@
 # Beer-Search
-A responsive web application that allows you to search for beers and save the ones you like. Optionally, a user account can be created to permanently save beers. The beers are retrieved using the Punk API: https://punkapi.com/documentation/v2   
 
-# Usage
 * Using Postgres, run the command "psql -U postgres -d mydb -f configure.sql", but with your username and desired database to create the tables. 
 * Then, go to the "backend" directory.
   * Set environment variables with the relevant database information.
@@ -13,7 +11,6 @@ A responsive web application that allows you to search for beers and save the on
   * Now, run "npm index.js".
 * Finally, open another terminal window, navigate to the "frontend" directory and run "npm start".
 
-# Screenshots
 ![Sign up](./screenshots/Signup.png)
 ----
 &nbsp;
